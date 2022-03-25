@@ -44,7 +44,7 @@ export default function TimelineItem({block}) {
             <div className="i-box-header flexrow">
               <div className="f-self-stretch">
                 <Translate>
-                  <Param name="submitterName" value={submitterName} wrapper={<strong />} />{' '}
+                  <Param name="submitterName" value="Unknown" wrapper={<strong />} />{' '}
                   submitted paper revision <Param name="revisionNumber" value={`#${number}`} />
                 </Translate>{' '}
                 <time
