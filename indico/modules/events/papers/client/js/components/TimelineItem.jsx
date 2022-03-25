@@ -36,7 +36,7 @@ export default function TimelineItem({block}) {
     <>
       <div className="i-timeline">
         <div className="i-timeline-item">
-          <UserAvatar user={submitter} />
+          <UserAvatar user="/images/unknown-user.png" />
           <div
             className={`i-timeline-item-box header-indicator-left ${!visible ? 'header-only' : ''}`}
             id={`block-info-${block.id}`}
