@@ -31,7 +31,7 @@ export default function TimelineHeader({children, contribution, state, submitter
           </div>
           <div className="review-summary-content f-self-stretch">
             <div>
-              <Translate>
+<!--              <Translate>
                 <Param name="submitterName" value={submitter.fullName} wrapper={<strong />} />{' '}
                 submitted for the contribution{' '}
                 <Param
@@ -47,7 +47,7 @@ export default function TimelineHeader({children, contribution, state, submitter
                   }
                 />
               </Translate>{' '}
-            </div>
+-->            </div>
           </div>
         </div>
         <div className="review-item-content">{children}</div>
