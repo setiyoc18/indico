@@ -25,8 +25,8 @@
                                     {% if reviewed or to_review %}
                                         <div class="submitter icon-user align-icon"
                                              data-searchable="{{ latest_revision.submitter.display_full_name|lower }}">
-                                            {{- latest_revision.submitter.display_full_name -}}
-                                        </div>
+Unknown <!--                                            {{- latest_revision.submitter.display_full_name -}}
+-->                                        </div>
                                         {% set state_icon_map = {'submitted': 'icon-file-eye',
                                                                  'accepted': 'icon-checkmark',
                                                                  'rejected': 'icon-cross',
