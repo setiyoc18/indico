@@ -30,10 +30,9 @@ export default function PaperMetadata() {
   return (
     <div className="paper-metadata flexrow f-j-end">
       <Translate>
-        Submitted on <Param name="date" value={date} /> by Unknown
-<!--        {' '}
-        <Param name="submitter" value={submitter.fullName} />
--->      </Translate>
+        Submitted on <Param name="date" value={date} /> by {' '}
+        <Param name="submitter" value="Unknown" />
+      </Translate>
     </div>
   );
 }
