@@ -31,22 +31,6 @@ export default function TimelineHeader({children, contribution, state, submitter
           </div>
           <div className="review-summary-content f-self-stretch">
             <div>
-              <Translate>
-                <Param name="submitterName" value={submitter.fullName} wrapper={<strong />} />{' '}
-                submitted for the contribution{' '}
-                <Param
-                  name="contributionLink"
-                  value={contribution.title}
-                  wrapper={
-                    <a
-                      href={contributionDisplayURL({
-                        event_id: eventId,
-                        contrib_id: contribution.id,
-                      })}
-                    />
-                  }
-                />
-              </Translate>{' '}
             </div>
           </div>
         </div>
